@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://valerychumpitaz:hp5EBACe2VgsreCH@valskill.yrurtvc.mongodb.net/valskill?retryWrites=true&w=majority&appName=valskill
+  application:
+    name: valskill
+logging:
+  level:
+    org.springframework.data.mongodb.core.MongoTemplate: DEBUG
