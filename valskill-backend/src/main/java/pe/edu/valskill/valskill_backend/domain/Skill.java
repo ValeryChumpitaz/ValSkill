@@ -10,13 +10,16 @@ public class Skill {
     private String id;
     private String name;
     private String description;
-    // Constructor
+
+    public Skill() {}
+
     public Skill(String name, String description) {
         this.name = name;
         this.description = description;
     }
 
-    // Getters y Setters
+    // Getters y setters
+
     public String getId() {
         return id;
     }

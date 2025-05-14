@@ -11,6 +11,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/skills")
+@CrossOrigin(origins = "*") // Habilita CORS para el frontend
 public class SkillController {
 
     private final SkillService skillService;
